@@ -1,1 +1,1 @@
-This repository will be filled with python math functions. At the moment, there's only the sumrange function, but more will come once I find math functions that don't exist and then figure them out.
+This repository will be filled with python math functions. At the moment, there's only the sumrange function, but more will come once I find math functions that don't exist in python and then figure them out.
