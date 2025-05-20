@@ -1,4 +1,4 @@
-def sumrange(xmin, xmax, xmultiplier, added): """ The components of the sum of math function. Xmin is the
+def sumrange(xmin, xmax, xmultiplier, added): """ The components of the sum-of math function. Xmin is the
 starting value, xmax is the maximum x value, xmultiplier is the value x is multiplied by, and added is
 any value added to x. If there is no multiplier for x, type 1 for xmultiplier, and if there is no number
 that is added to x, type 0 for added."""
