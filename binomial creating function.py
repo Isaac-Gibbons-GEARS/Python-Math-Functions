@@ -50,5 +50,17 @@ def binomial(a,b,c):
                     operand2 = ""
     answer = f"(x{operand1}{num1})(x{operand2}{num2})"
     return answer
-thing = binomial(1,-3,-10)
-print(thing)
+
+loop = True
+while loop:
+    A = input("Enter a: ")
+    B = input("Enter b: ")
+    C = input("Enter c: ")
+    Binomial = binomial(A,B,C)
+    print(Binomial)
+    print("Would you like to restart? (yes/no)")
+    loop_response = input().lower()
+    if loop_response == "yes":
+        continue
+    else:
+        loop = False
