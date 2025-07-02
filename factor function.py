@@ -13,15 +13,3 @@ def factor_list(number):
     return factors_total
 thing = factor_list(24)
 print(thing)
-
-loop = True
-while loop:
-    number_input = input("Enter the number to be factored: ")
-    Factors_of_number = factor_list(number_input)
-    print(Factors_of_number)
-    print("Would you like to restart? (yes/no)")
-    loop_response = input().lower()
-    if loop_response == "yes":
-        continue
-    else:
-        loop = False
