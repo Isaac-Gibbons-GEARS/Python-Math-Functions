@@ -1,4 +1,4 @@
-//this just uses the quadratic formula
+#this just uses the quadratic formula
 def quadratic(a,b,c,):
     from math import sqrt
     x1 = ((-1*b)+sqrt(((b**2)-(4*a*c))))/(2*a)
