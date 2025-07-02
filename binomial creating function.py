@@ -15,7 +15,7 @@ def factor_list(number):
     factors_total = factors + factors_neg
     return factors_total
 
-def binomial(a,b,c):
+def tobinomial(a,b,c):
     if a > 1:
         a = 1
         b = b/a
@@ -56,7 +56,7 @@ while loop:
     A = input("Enter a: ")
     B = input("Enter b: ")
     C = input("Enter c: ")
-    Binomial = binomial(A,B,C)
+    Binomial = tobinomial(A,B,C)
     print(Binomial)
     print("Would you like to restart? (yes/no)")
     loop_response = input().lower()
