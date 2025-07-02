@@ -1,3 +1,4 @@
+#uses the pythorean theorum
 import math
 
 def hypotenuse(first, second):
