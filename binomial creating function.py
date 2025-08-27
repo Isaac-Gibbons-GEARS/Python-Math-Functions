@@ -70,9 +70,10 @@ def tobinomial(a,b,c,var_symbol="x"):
                     elif squareroot2 != num2:
                         operand2 = ""
     if num1 and num2 == 0:
-        answer = "no solution by this method"
+        answer = "no solution by these methods"
     else:
         answer = f"({var_symbol}{operand1}{num1})({var_symbol}{operand2}{num2})"
     return answer
 thing = tobinomial(2,7,3)
 print(thing)
+
